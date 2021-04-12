@@ -29,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@null"
+        android:layout_marginBottom="6dp"
         app:elevation="0dp">
 
         <androidx.appcompat.widget.Toolbar
@@ -44,7 +45,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+                android:textSize="36sp"
+		android:textColor="?android:attr/textColorPrimary" />
 
         </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
